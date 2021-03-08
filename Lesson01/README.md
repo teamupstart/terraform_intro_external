@@ -2,7 +2,7 @@
 The stuff everyone forgets to tell you.
 
 ## Tool Version Control
-Not all your TerraForm code will be in the same version - Use a version manager so you can control versions per repo. I recommend ASDF, which uses `.tool-versions` in the folder
+Not all your Terraform code will be in the same version - Use a version manager so you can control versions per repo. I recommend ASDF, which uses `.tool-versions` in the folder
 
 ## Resource Control
 Terraform only controls the Resources it's configured to - you can't say "Put all Lambda functions in Terraform" - but you can say "These lambda functions are controlled by terraform"
