@@ -14,7 +14,7 @@ A directory in terraform is considered a "module" - and the one you run the terr
 
 There _are_ certain conventions people follow though.
 
-* `main.tf` - this should be your core file with all the imporatant core information - like the provider
+* `main.tf` - this should be your core file with all the important core information - like the provider
 * `versions.tf` - Terraform will create and somewhat manage this - this is where you control your provider versions
 * `terraform.tfstate` - The local statefile, used by default if you don't configure remote state. JSON blob, take a look inside but don't touch unless you've made a good backup!
 
