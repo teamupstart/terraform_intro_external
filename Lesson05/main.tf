@@ -8,3 +8,10 @@ module "my_lambda_1" {
   lambda_role = aws_iam_role.my_lambda_role.arn
   lambda_zipfile = "lambda.zip"
 }
+
+module "my_lambda_2" {
+  source = "./tf_learning_lambda"
+  lambda_name = "lesson-5-lambda-2"
+  lambda_role = aws_iam_role.my_lambda_role.arn
+  lambda_zipfile = "lambda.zip"
+}
