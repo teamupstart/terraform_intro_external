@@ -31,6 +31,11 @@ export AWS_ACCESS_KEY_ID="<YOUR ACCESS KEY HERE>"
 export AWS_SECRET_ACCESS_KEY="<YOUR SECRET KEY HERE>"
 ```
 or you can set it up with your awscli profile if you have one (instructions are in the link)
+I also recommend doing:
+```
+export AWS_REGION="us-east-1"
+```
+so we don't have to go hunting for the function you create.
 
 Now that we've set it up, we need to run:
 ```sh

@@ -64,7 +64,7 @@ module "my_lambda_1" {
 }
 ```
 
-## Buidling it
+## Building it
 Alright! Let's do a `terraform plan`. You should get the new creates including a resource called: `module.my_lambda_1.aws_lambda_function.my_tf_lambda`
 
 Notice this new path! 
